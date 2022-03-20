@@ -8,7 +8,7 @@ import nebula from "./assets/starfield/nebula.jpg";
 
 const app = new PIXI.Application(800, 600, {
   transparent: true,
-  antialias: true
+  antialias: true,
 });
 const animationWrapper = document.getElementById("animation");
 const loader = PIXI.loader;
@@ -36,7 +36,7 @@ let current = 0;
 // All sprites used in demos
 const sprites = {};
 
-const ticker = function() {
+const ticker = function () {
   demoReel[current].update();
   demoReel[current].draw();
 };
@@ -99,7 +99,7 @@ function start() {
 }
 
 // Resize function (will be launched when window is resized)
-window.onresize = event => {
+window.onresize = (event) => {
   const w = window.innerWidth;
   const h = window.innerHeight;
   app.renderer.resize(w, h);
