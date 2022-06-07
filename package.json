@@ -10,20 +10,20 @@
     "build": "parcel build src/index.html --public-url ./"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.8",
-    "@parcel/transformer-less": "^2.3.2",
+    "@babel/core": "^7.18.2",
+    "@parcel/transformer-less": "^2.6.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "cssnano": "^5.1.11",
-    "less": "^3.10.3",
-    "less-plugin-autoprefix": "^1.4.1",
+    "less": "^4.1.2",
+    "less-plugin-autoprefix": "^2.0.0",
     "parcel": "^2.6.0",
     "path-browserify": "^1.0.1",
     "process": "^0.11.10",
     "querystring-es3": "^0.2.1",
     "url": "^0.11.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
     "pixi-filters": "^2.4.0",
